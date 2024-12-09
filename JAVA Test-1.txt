@@ -1,0 +1,43 @@
+1.Explain the difference between checked and unchecked exceptions in Java. Provide example for each.
+ANS:-Checked Exception--
+     *Checked exceptions are the Compiled time exception.
+     *Checked at compile time.
+     *These are Handled by try & catch or throws.
+     *Ex:-IOException
+	  SQLException
+	  FileNotFoundException
+     Unchecked Exception--
+     *Unchecked Exception are the Run time exception.
+     *Not checked at compile time.
+     *These are no need to handle.
+     *Ex:-ArrayIndexOutOfBoundException
+	  ArithmeticException
+	  NullPointerException
+
+2.Describe the try-catch block in Java.How does the finally block differ from catch? Can a try block exist without a catch? Explain with an example.
+ANS:-try-catch:
+     *The try-catch block is used to handle exception.
+     *Syntax:
+	try{
+	
+	}
+	catch(){
+
+	}
+     finally:
+     *The finally block is an optional block. 
+     *It is used to execute code that must and should run whether an exception was thrown or not. 
+     
+     *Yes the try block will exist without catch but the finally is bond with the try.
+
+4.Define Polymorphism and its types. Give an example for each.
+ANS:-Polymorphism is a one of the Object oriented programming concept. Polymorphism is a Greek word poly means Many and morph means Forms, that is polymorphism means one having many forms.
+*There are 2 types 
+1.Compile-Time polymorphism
+2.Run-Time polymorphism
+
+5.What is abstraction in Java. Explain how abstraction is achieved using abstract classes and interfaces.
+ANS:-Abstraction is a one of the Object oriented programming concept. Abstraction means hiding the implementation and only showing the essential features of Objects.
+
+
+ 
